@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula General</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="mate.js"></script>
+</head>
+<header>
+    <div class="titulo">
+    <h1>Formula cuadratica y numeros imaginarios </h1>
+</div>
+
+<nav class="botones">
+<a class="btn" href="Principal.html">inicio</a>
+<a class="btn" href="quimica .html">Quimica</a>
+<a class="btn" href="ingles.html">Ingles </a>
+</nav>
+</header>
+
+<div class="wave">
+<svg viewBox="0 0 500 150" preserveAspectRatio="none">
+<path d="M0.00,49.98 C149.99,150.00 364.27,-72.52 539.78,35.05 L500.00,150.00 L0.00,150.00 Z" >
+</path></svg></div>
+
+
+<body>
+
+    <p class="uno">La formula General para resolver con la ecuacion cuadratica 
+    <em>ax <sup>2</sup>+ bx + c = 0</em>  incluso cuando el discriminante es negativo</p>
+    <h1 class="cal">Caculadora de la formula General</h1>
+    
+
+
+
+    <p class="Caculadora">Ingrese los coeficientes para realizar la operacion</p>
+    <br>
+    <form action="#"
+    onsubmit="calcular ()";return false;>
+    <label for="a">coeficiente de x <sup>2</sup></label>
+    <input type="numero " id="a">
+    <br><br>
+    <label for="b">coeficiente de x </label>
+    <input type="numero " id="b">
+    <br><br>
+    <label for="c">termino independiente</label>
+    <input type="numero " id="c">
+    <br><br>
+
+
+
+<button type="button" onclick="calcularformula()">Calcular</button>
+ </form>
+<p id='resultado'></p>
+</body>
+</html>

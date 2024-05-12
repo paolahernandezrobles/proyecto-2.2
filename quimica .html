@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomenclatura de anhidridos</title>
+    <script src="quim.js"></script>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<header>
+    <div class="titulo">
+    <h1>Anhidridos </h1>
+</div>
+
+<nav class="botones">
+<a class="btn" href="mate.html">Matematicas</a>
+<a class="btn" href="Principal.html">Inicio</a>
+<a class="btn" href="ingles.html">Ingles </a>
+</nav>
+</header>
+
+
+
+<div class="wave" >
+<svg viewBox="0 0 500 150" preserveAspectRatio="none">
+<path d="M0.00,49.98 C149.99,150.00 364.27,-72.52 539.78,35.05 L500.00,150.00 L0.00,150.00 Z">
+
+</path></svg>
+</div>
+
+<body>
+    <div class="contenido">
+ <h1>Nomenclatura Anhidridos </h1>
+ <br>
+ <p class="informacion"> 
+    <h2>Regla 1</h2> <br>
+    <img class="img" src="imagenes quimica/teoria01.png" alt="">
+    <br> Los anhídridos proceden de condensar dos moléculas de ácidos carboxílicos. La condensación de dos moléculas del mismo ácido da lugar a anhídridos simétricos, que se nombran reemplazando la palabra ácido por anhídrido.</p>
+    <br>
+
+    <p class="informacion">
+        <h2>Regla 2</h2>
+        <br>
+        <img class="img" src="imagenes quimica/teoria02.png" alt="">
+        <br> Los anhídridos asimétricos -formados a partir de dos ácidos diferentes- se nombran citando alfabéticamente los ácidos.</p>
+    
+        <br>
+    <p class="informacion">
+        <h2>Regla 3</h2> <br>
+        <img class="img" src="imagenes quimica/teoria03.png" alt="">
+        <br>Los anhídridos cíclicos -formados por ciclación de un diácido- se nombran cambiando la palabra ácido por anhídrido y terminando el nombre en -dioico.</p>
+<br>
+    <p>! Aqui tenemos dos botones con los cuales podras obtener la nomenclaura de tu anhidrido ¡ </p>
+</p>
+<br>
+</div>
+<br>
+ 
+<div class="uno">
+<label for="numeros">Ingresa el numero de carbonos: </label>
+<br>
+<input type="numero" id="prefijos">
+<br>
+<button onclick="simetricos()"> Simetrico</button>
+<br>
+<p id="resultado"></p>
+<br>
+
+</div>
+
+<div class="dos">
+<label for="numero1">Ingresa el numero de carbonos: </label>
+<br>
+<input type="text" id="numero1">
+<br>
+<input type="text" id="numero2">
+<br>
+<button onclick="asimetricos()"> Asimetrico</button>
+<p id="resultados"></p>
+<br>
+</div>
+</body>
+</html>
